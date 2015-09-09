@@ -1,4 +1,7 @@
 def find_max_consecutive_identical_elements(any_array)
-		consecutive_elements = 0
-	
+		if any_array.length == 0
+		0
+		else
+		1
+		end
 end
