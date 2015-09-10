@@ -35,4 +35,8 @@ def test_for_3_identical_elements_in_any_array
 	assert_equal(3, results)
 end
 
+def test_max_consecutive_identical_elements
+	results = find_max_consecutive_identical_elements (Array.new(100,1))
+	assert_equal(100, results)
+end
 end
