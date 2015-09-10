@@ -30,6 +30,9 @@ def test_array_for_two_consecutive_elements_and_one_non_consecutice_element
 	assert_equal(2, results)
 end
 
-
+def test_for_3_identical_elements_in_any_array
+	results = find_max_consecutive_identical_elements([1,1,1])
+	assert_equal(3, results)
+end
 
 end
