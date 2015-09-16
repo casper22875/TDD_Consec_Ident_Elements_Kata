@@ -39,4 +39,22 @@ def test_max_consecutive_identical_elements
 	results = find_max_consecutive_identical_elements (Array.new(100,1))
 	assert_equal(100, results)
 end
+
+def test_for_consecutive_elements_in_array
+	results = find_max_consecutive_identical_elements([1,2,1,2])
+	assert_equal(1, results)
+end
+
+def test_for_2_consecutive_letters_in_array
+	results = find_max_consecutive_identical_elements(["a","a","b","c"])
+	assert_equal(2,results)
+end
+
+
+
+
+
+
+
+
 end
