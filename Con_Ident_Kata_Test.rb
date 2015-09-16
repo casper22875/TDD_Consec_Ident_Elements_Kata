@@ -51,13 +51,19 @@ def test_for_2_consecutive_letters_in_array
 end
 
 def test_for_3_identical_elements_in_middle_of_array
-	results = this_has_triplets([1,2,2,2,3,3,1,1])
+	results = find_max_consecutive_identical_elements([1,2,2,2,3,3,1,1])
 	assert_equal(3, results)
 end
 
-
+# def test_for_twin_letters
+	# results = find_max_consecutive_identical_elements("hello")
+	# assert_equal(2, results)
+# end
 	
-
+# def test_for_septuplet_letters
+	# results = find_max_consecutive_identical_elements("this is sooooooo hard")
+	# assert_equal(7, results)
+# end
 
 
 
