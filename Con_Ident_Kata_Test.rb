@@ -50,9 +50,13 @@ def test_for_2_consecutive_letters_in_array
 	assert_equal(2,results)
 end
 
+def test_for_3_identical_elements_in_middle_of_array
+	results = this_has_triplets([1,2,2,2,3,3,1,1])
+	assert_equal(3, results)
+end
 
 
-
+	
 
 
 
